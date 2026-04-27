@@ -30,7 +30,7 @@ const Login = () => {
             toast.error('All fields are required')
             return
         }
-        navigate("/")
+        navigate('/')
 
         
 
