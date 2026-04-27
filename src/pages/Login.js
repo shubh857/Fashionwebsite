@@ -22,7 +22,7 @@ const Login = () => {
     }
 
     const handleSubmit = (e) => {
-        setIsLoggedIn(true)   //contextAPI
+           //contextAPI
         e.preventDefault()  
         const {email, password} = loginData
 
@@ -30,6 +30,7 @@ const Login = () => {
             toast.error('All fields are required')
             return
         }
+        setIsLoggedIn(true)
         navigate('/')
 
         

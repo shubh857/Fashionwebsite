@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 
 const Register = () => {
@@ -66,7 +66,7 @@ const Register = () => {
                 <input className="create w-25" name="password" onChange={handleChange} type="password" placeholder="Password"></input><br /><br />
                 <input className="create w-25" name="confirm" onChange={handleChange} type="password" placeholder="Confirm Password"></input><br /><br />
                 <button className="btn btn-danger logbutton">SIGN UP</button><br /><br />
-                <span>Have already an account ? <a onClick={() => navigate('/login')} className="forget" href="#">Login</a></span>
+                <span>Have already an account ? <NavLink to="/login" className="forget">Login</NavLink></span>
             </form>
         </div>
     </>
