@@ -59,7 +59,7 @@ const Login = () => {
                 <button className="btn btn-danger mb-3 logbutton">LOGIN</button>
             </form>
             {/* <span>Forgot <a className="forget" href="#">Usename</a> / <a className="forget" href="#">Password</a>?</span><br/> */}
-            <span>Don't have an account? </span><NavLink to="/register" className="forget" href="#">Sign up</NavLink>
+            <span>Don't have an account? </span><NavLink to="/register" className="forget">Sign up</NavLink>
         </div>
     </>
 }
