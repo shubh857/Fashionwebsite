@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a ,
+.top2,
+.top3,
+.top4,
+.arrival1,
+.sub1,
+.contact4,
+.contact2 {
+  font-family: "Miranda Sans", sans-serif;
+}
+
+/* NAVBAR STYLE  */
+ .navbar-nav {
+  gap: 30px;
+}
+.nav-link {
+  color: black;
+}
+.active {
+  color: red;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* HOME STYLE  */
+.home1 {
+  background-color: rgb(214, 213, 213);
+}
+.top2,
+.top3 {
+  font-size: 50px;
+}
+.top3 {
+  color: rgb(2, 45, 61);
+}
+.sub1 {
+  color: rgb(2, 45, 61);
+}
+.top4 {
+  border-radius: 0;
+  padding: 13px 50px;
+  margin-bottom: 10px; 
+}
+.top4:hover {
+  color: red;
+  background-color: rgb(214, 213, 213);
+}
+.subscribe {
+  background-color: rgb(208, 204, 205);
+  padding: 50px;
+}
+.sub2 {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+/* ABOUT SECTION  */
+.out2 {
+  background-color:rgb(2, 45, 61) ;
+  color: white;
+  padding: 60px 50px;
+  border-radius: 5px;
+}
+.out3 {
+  font-size: 40px;
+}
+.line {
+  width: 80px;             
+  height: 4px;              
+  background-color: red;
+  border: none;             
+  margin: 10px auto; 
+}
+
+/* PRODUCT SECTION  */
+.line2 {
+  border-radius: 0;
+  padding: 13px 50px; 
+}
+.line2:hover {
+  background-color: white;
+  color: red;
+}
+.chead,
+.cfoot {
+  background-color: white;
+  border: none;
+}
+.blue:hover {
+  color: red;
+  background-color: white;
+}
+
+/* ARRIVAL SECTION  */
+.arrival {
+  background-color: rgb(208, 204, 205);
+}
+.arrival1 {
+  color:rgb(2, 45, 61) ;
+  font-size: 55px;
+}
+.top5 {
+  padding: 10px 40px; 
+  border-radius: 30px;
+}
+.top5:hover {
+  color: red;
+  background-color: rgb(208, 204, 205);
+}
+
+/* FOOTER SECTION  */
+.ones,
+.one{
+  margin-bottom: 20px;
+}
+.here:focus{
+  box-shadow: none;
+  outline: none;
+}
+.end {
+  background-color: rgb(35, 33, 33);
+  color: white;
+}
+.name {
+  text-decoration: none;
+  color: rgb(241, 81, 81);
+} 
+p a {
+  text-decoration: none;
+  color: black;
+}
+.box {
+  box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* CONTACT SECTION  */
+.contact1 {
+  background-color: rgb(241, 81, 81);
+  color: white;
+}
+.contact2 {
+  line-height: 100px;
+}
+.contact3 {
+  padding: 10px;
+}
+.contact4 {
+  border-radius: 0px;
+  padding: 15px 40px;
+  border: none;
+}
+.contact4:hover {
+  background-color: rgb(241, 81, 81);
+  border: none;
+}
+
+/* LOGIN SECTION  */
+.logbutton {
+  padding: 13px 45px;
+}
+.logbutton:hover {
+  background-color: white;
+  color: rgb(241, 81, 81);
+}
+.forget {
+  text-decoration: none;
+  color: red;
+}
+
+/* REGISTER SECTION  */
+.create {
+  padding: 10px;
+}
+
+/* PRODUCT DETAIL SECTION  */
+.cart:hover {
+  background-color: white;
+  color: red;
+}
+ .cart2 {
+  color: white;
+  background-color: black;
+ }
+ .cart2:hover {
+  background-color: white;
+  border-color: black;
+ }
+
+
+@media (max-width: 992px) {
+  .navbar-nav{
+    gap: 15px;
+  }
+  .font {
+    font-size: 15px;
+  }
+  .one {
+    width: 160px;
+    height: 60px;
+  }
+  .lady {
+    height: 450px;
+  }
+}
+@media (max-width: 320px) {
+  .logos{
+    height: 50px;
+    width: 150px;
+  }
+  .sub2::placeholder{
+    font-size: 15px;
+  }
+}
+@media (max-width: 876px) {
+  .home3,
+  .man {
+    display: none;
+  }
+  .home2,
+  .arrival2 {
+    width: 100%;
+    text-align: center;
+  }
+  .top2,
+  .arrival1 {
+    margin-top: 20px;
+  }
+  .top4 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .out2 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .top2,
+  .top3,
+  .arrival1 {
+    font-size: 30px;
+  }
+  .font {
+    font-size: 13px;
+  }
+  .sub2 {
+    border-radius: 18px;
+    padding: 10px;
+  }
+  .contact3::placeholder {
+    font-size: 15px;
+  }
+  .single4 {
+    font-size: 15px;
+  }
+  .single5 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .single1 {
+    display: block !important;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .single3 {
+    height: 200px;
+  }
+}
