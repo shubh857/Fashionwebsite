@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 import { AuthContext } from "../context/AuthContext";
 
@@ -59,7 +59,7 @@ const Login = () => {
                 <button className="btn btn-danger mb-3 logbutton">LOGIN</button>
             </form>
             {/* <span>Forgot <a className="forget" href="#">Usename</a> / <a className="forget" href="#">Password</a>?</span><br/> */}
-            <span>Don't have an account? </span><a onClick={() => navigate('/register')} className="forget" href="#">Sign up</a>
+            <span>Don't have an account? </span><NavLink to="/register" className="forget" href="#">Sign up</NavLink>
         </div>
     </>
 }
