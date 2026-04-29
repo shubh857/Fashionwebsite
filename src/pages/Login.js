@@ -55,7 +55,7 @@ const Login = () => {
         </div>
         <div className="container text-center mt-5 mb-5">
             <div className="row justify-content-center">
-                <div className="col-12 col-md-6 col-lg-2" >
+                <div className="col-12 col-md-6 col-lg-4" >
                     <form onSubmit={handleSubmit}>
                         <input className="form-control contact3" name="email" value={loginData.email} onChange={handleChange} type="email" placeholder="Enter Email"></input><br />
                         <input className="form-control contact3" name="password" value={loginData.password} onChange={handleChange} type="password" placeholder="Enter Password"></input><br />
