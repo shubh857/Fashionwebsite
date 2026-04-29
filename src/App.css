@@ -268,9 +268,9 @@ p a {
     border-radius: 18px;
     padding: 10px;
   }
-  .contact3::placeholder {
+  /* .contact3::placeholder {
     font-size: 15px;
-  }
+  } */
   .single4 {
     font-size: 15px;
   }
