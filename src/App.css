@@ -64,6 +64,9 @@ ul a {
   border-radius: 30px;
   padding: 15px;
 }
+.sub2:focus {
+  box-shadow: none;
+}
 
 /* ABOUT SECTION  */
 .out2 {
@@ -228,9 +231,9 @@ p a {
     height: 50px;
     width: 150px;
   }
-  .sub2::placeholder{
+  /* .sub2::placeholder{
     font-size: 15px;
-  }
+  } */
 }
 @media (max-width: 876px) {
   .home3,
