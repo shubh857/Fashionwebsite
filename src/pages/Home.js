@@ -10,7 +10,7 @@ const Home = () => {
     let navigate = useNavigate()
 
     return <>
-        <div className="container-fluid  home1">
+        <div className="container-fluid home1">
             <div className="row align-items-center">
                 <div className="col-md-6 home2 d-flex align-items-center justify-content-center">
                     <div className="mx-auto">

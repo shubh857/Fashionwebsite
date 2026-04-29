@@ -15,7 +15,7 @@ const About = () => {
                     <div className="out2">
                         <FaTruckMonster className="out3 mb-3" />
                         <h3>Fast Delivery</h3>
-                        <p>within 2-3 days at your doorstep</p>
+                        <p>within 2-3 days at your door</p>
                     </div>
                 </div>
                 <div className="col-md-4">

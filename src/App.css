@@ -72,7 +72,7 @@ ul a {
 .out2 {
   background-color:rgb(2, 45, 61) ;
   color: white;
-  padding: 60px 50px;
+  padding: 50px 50px;
   border-radius: 5px;
 }
 .out3 {
@@ -247,6 +247,9 @@ p a {
   }
   .arrival2{
     padding: 40px;
+  }
+  .home1 {
+  padding: 40px;
   }
   .top2,
   .arrival1 {
