@@ -57,8 +57,8 @@ const Login = () => {
             <div className="row justify-content-center">
                 <div col-12 col-sm-10 col-md-8 col-lg-6>
                     <form onSubmit={handleSubmit}>
-                        <input className="contact3" name="email" value={loginData.email} onChange={handleChange} type="email" placeholder="Enter Email"></input><br /><br />
-                        <input className="contact3" name="password" value={loginData.password} onChange={handleChange} type="password" placeholder="Enter Password"></input><br /><br />
+                        <input className="form-control contact3" name="email" value={loginData.email} onChange={handleChange} type="email" placeholder="Enter Email"></input><br /><br />
+                        <input className="form-control contact3" name="password" value={loginData.password} onChange={handleChange} type="password" placeholder="Enter Password"></input><br /><br />
                         <button className="btn btn-danger mb-3 logbutton">LOGIN</button>
                     </form>
                 </div>
