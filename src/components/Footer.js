@@ -1,6 +1,6 @@
 import React from "react";
 import brand from './../images/stylehaven.png'
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Footer = () => {
 
@@ -28,11 +28,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3 mt-3">
                         <h5>MENU</h5>
-                        <p><a onClick={() => navigate('/')} href="#">Home</a></p>
-                        <p><a onClick={() => navigate('/about')} href="#">About</a></p>
-                        <p><a onClick={() => navigate('/contact')} href="#">Contact</a></p>
-                        <p><a onClick={() => navigate('/product')} href="#">Product</a></p>
-                        <p><a onClick={() => navigate('/blog')} href="#">Blog</a></p>
+                        <p><Link to="/">Home</Link></p>
+                        <p><Link to="/about">About</Link></p>
+                        <p><Link to="/contact">Contact</Link></p>
+                        <p><Link to="/product">Product</Link></p>
+                        <p><Link to="/blog">Blog</Link></p>
                     </div>
                     <div className="col-md-3 mt-3">
                         <h5>ACCOUNT</h5>
