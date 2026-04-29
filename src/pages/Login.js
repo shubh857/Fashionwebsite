@@ -5,16 +5,16 @@ import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
 
-    const {setIsLoggedIn} = useContext(AuthContext)
+    const { setIsLoggedIn } = useContext(AuthContext)
     let navigate = useNavigate()
-    
+
     const [loginData, setLoginData] = useState({
         email: localStorage.getItem("Email"),
-        password:''
+        password: ''
     })
-    
+
     const handleChange = (e) => {
-        const {name, value} = e.target
+        const { name, value } = e.target
         setLoginData({
             ...loginData,
             [name]: value
@@ -22,43 +22,47 @@ const Login = () => {
     }
 
     const handleSubmit = (e) => {
-           //contextAPI
-        e.preventDefault()  
-        const {email, password} = loginData
+        //contextAPI
+        e.preventDefault()
+        const { email, password } = loginData
 
-        if((email === '') || (password === '')) {
+        if ((email === '') || (password === '')) {
             toast.error('All fields are required')
             return
         }
         setIsLoggedIn(true)
         navigate('/')
 
-        
+
 
         console.log(loginData.email)
         console.log(loginData.password)
 
         toast.success('Logged in successfully')
-        
+
         setLoginData({
-            email:'',
-            password:''
+            email: '',
+            password: ''
         })
     }
-    
 
-   
+
+
 
     return <>
         <div className="contact1 text-center">
             <h1 className="contact2">Login</h1>
         </div>
         <div className="container text-center mt-5 mb-5">
-            <form onSubmit={handleSubmit}>
-                <input className="contact3 w-25" name="email" value={loginData.email} onChange={handleChange} type="email" placeholder="Enter Email"></input><br/><br/>
-                <input className="contact3 w-25" name="password" value={loginData.password} onChange={handleChange} type="password" placeholder="Enter Password"></input><br/><br/>
-                <button className="btn btn-danger mb-3 logbutton">LOGIN</button>
-            </form>
+            <div className="row justify-content-center">
+                <div col-12 col-sm-10 col-md-8 col-lg-6>
+                    <form onSubmit={handleSubmit}>
+                        <input className="contact3" name="email" value={loginData.email} onChange={handleChange} type="email" placeholder="Enter Email"></input><br /><br />
+                        <input className="contact3" name="password" value={loginData.password} onChange={handleChange} type="password" placeholder="Enter Password"></input><br /><br />
+                        <button className="btn btn-danger mb-3 logbutton">LOGIN</button>
+                    </form>
+                </div>
+            </div>
             {/* <span>Forgot <a className="forget" href="#">Usename</a> / <a className="forget" href="#">Password</a>?</span><br/> */}
             <span>Don't have an account? </span><NavLink to="/register" className="forget">Sign up</NavLink>
         </div>

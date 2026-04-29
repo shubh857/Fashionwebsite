@@ -154,6 +154,11 @@ p a {
 }
 .contact3 {
   padding: 10px;
+  border-radius: 0px;
+}
+.contact3:focus {
+  box-shadow: none;
+  border-color: black;
 }
 .contact4 {
   border-radius: 0px;
@@ -181,6 +186,11 @@ p a {
 /* REGISTER SECTION  */
 .create {
   padding: 10px;
+  border-radius: 0;
+}
+.create:focus {
+  box-shadow: none;
+  border-color: black;
 }
 
 /* PRODUCT DETAIL SECTION  */
