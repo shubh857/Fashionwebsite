@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Fashionwebsite/static/css/main.511a4b75.css",
-    "main.js": "/Fashionwebsite/static/js/main.8c21c75c.js",
+    "main.css": "/Fashionwebsite/static/css/main.ba76488b.css",
+    "main.js": "/Fashionwebsite/static/js/main.5895b750.js",
     "static/js/453.b07cfa3b.chunk.js": "/Fashionwebsite/static/js/453.b07cfa3b.chunk.js",
     "static/media/mans.png": "/Fashionwebsite/static/media/mans.0f0597397ec55e263824.png",
     "static/media/front.png": "/Fashionwebsite/static/media/front.a4dfa8ec1ad697fd3d46.png",
     "static/media/stylehaven.png": "/Fashionwebsite/static/media/stylehaven.07639d05275c31522998.png",
     "index.html": "/Fashionwebsite/index.html",
-    "main.511a4b75.css.map": "/Fashionwebsite/static/css/main.511a4b75.css.map",
-    "main.8c21c75c.js.map": "/Fashionwebsite/static/js/main.8c21c75c.js.map",
+    "main.ba76488b.css.map": "/Fashionwebsite/static/css/main.ba76488b.css.map",
+    "main.5895b750.js.map": "/Fashionwebsite/static/js/main.5895b750.js.map",
     "453.b07cfa3b.chunk.js.map": "/Fashionwebsite/static/js/453.b07cfa3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.511a4b75.css",
-    "static/js/main.8c21c75c.js"
+    "static/css/main.ba76488b.css",
+    "static/js/main.5895b750.js"
   ]
 }
