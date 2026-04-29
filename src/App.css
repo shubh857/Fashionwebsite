@@ -245,6 +245,9 @@ p a {
     width: 100%;
     text-align: center;
   }
+  .arrival2{
+    padding: 40px;
+  }
   .top2,
   .arrival1 {
     margin-top: 20px;

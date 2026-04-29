@@ -49,7 +49,7 @@ const Home = () => {
         </div> */}
         <div className="container-fluid subscribe">
             <div className="row justify-content-center">
-                <div className="mb-4 mt-5 sub1 text-center">
+                <div className="mb-4 mt-3 sub1 text-center">
                     <h1>Subscribe To Get Discount Offers</h1>
                 </div>
                 <div className="col-12 col-sm-10 col-md-8 col-lg-6">
